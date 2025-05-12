@@ -31,7 +31,7 @@ WHERE perguntadeseguranca = "comida preferida" AND resposta = "feijoada";
  
 CREATE TABLE tarefa
 (
-    id INT PRIMARY KEY NOT NULL ALTO INCREMENTE,
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     ano VARCHAR(20) NOT NULL,
     atividade VARCHAR(50) NOT NULL,
     semana INT NOT NULL,
